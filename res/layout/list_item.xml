@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <View 
+        android:layout_width="0.5px"
+        android:layout_height="match_parent"
+        android:background="#B8B8B8"
+        android:visibility="visible"/>
+    
+    <TextView 
+        android:id="@+id/class_name"
+        android:layout_width="80dip"
+        android:layout_height="90dip"
+        android:textSize="20dip"
+        android:gravity="center_horizontal"
+        android:lines="3"
+       />
+    <View 
+        android:layout_width="0.5px"
+        android:layout_height="match_parent"
+        android:background="#B8B8B8"
+        android:visibility="visible"/>
+    
+    <TextView 
+        android:id="@+id/teacher_name"
+        android:layout_width="30dip"
+        android:layout_height="90dip"
+        android:gravity="center_horizontal"
+        android:textSize="20dip"
+        android:lines="3"
+       />
+    
+    <View 
+        android:layout_width="0.5px"
+        android:layout_height="match_parent"
+        android:background="#B8B8B8"
+        android:visibility="visible"/>
+    
+    <TextView 
+        android:id="@+id/usually"
+        android:layout_width="30dip"
+        android:layout_height="90dip"
+        android:textSize="20dip"
+        android:gravity="center_horizontal"
+        android:lines="3"
+       />
+    <View 
+        android:layout_width="0.5px"
+        android:layout_height="match_parent"
+        android:background="#B8B8B8"
+        android:visibility="visible"/>
+    
+    <TextView 
+        android:id="@+id/final1"
+        android:layout_width="30dip"
+        android:layout_height="90dip"
+        android:textSize="20dip"
+        android:gravity="center_horizontal"
+        android:lines="3"
+       />
+    <View 
+        android:layout_width="0.5px"
+        android:layout_height="match_parent"
+        android:background="#B8B8B8"
+        android:visibility="visible"
+        />
+    
+    <TextView 
+        android:id="@+id/sum"
+        android:layout_width="30dip"
+        android:layout_height="90dip"
+        android:textSize="20dip"
+        android:gravity="center_horizontal"
+        android:lines="3"
+       />
+    <View 
+        android:layout_width="0.5px"
+        android:layout_height="match_parent"
+        android:background="#B8B8B8"
+        android:visibility="visible"/>
+    <TextView 
+        android:id="@+id/credit_l"
+        android:layout_width="30dip"
+        android:layout_height="90dip"
+        android:textSize="20dip"
+        android:gravity="center_horizontal"
+        android:lines="3"
+       />
+    <View 
+        android:layout_width="0.5px"
+        android:layout_height="match_parent"
+        android:background="#B8B8B8"
+        android:visibility="visible"/>
+    <TextView 
+        android:id="@+id/credit_gpa_l"
+        android:layout_width="30dip"
+        android:layout_height="90dip"
+        android:textSize="20dip"
+        android:gravity="center_horizontal"
+        
+        android:lines="3"
+       />
+    <View 
+        android:layout_width="0.5px"
+        android:layout_height="match_parent"
+        android:background="#B8B8B8"
+        android:visibility="visible"/>
+
+</LinearLayout>
